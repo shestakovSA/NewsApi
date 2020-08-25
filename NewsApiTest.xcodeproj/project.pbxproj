@@ -7,26 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C7793E224F3C3A8009D9EB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7793E124F3C3A8009D9EB9 /* SceneDelegate.swift */; };
+		9C7793E424F3C423009D9EB9 /* CacheNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7793E324F3C423009D9EB9 /* CacheNews.swift */; };
+		9C7793E624F3DF7A009D9EB9 /* FavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7793E524F3DF7A009D9EB9 /* FavoriteTableViewCell.swift */; };
+		9C7793EC24F4421E009D9EB9 /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7793EB24F4421E009D9EB9 /* Favorite.swift */; };
 		9CEEA69824EBFEEF00E9BE5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEEA69724EBFEEF00E9BE5B /* AppDelegate.swift */; };
-		9CEEA69A24EBFEEF00E9BE5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEEA69924EBFEEF00E9BE5B /* SceneDelegate.swift */; };
-		9CEEA69C24EBFEEF00E9BE5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEEA69B24EBFEEF00E9BE5B /* ViewController.swift */; };
+		9CEEA69C24EBFEEF00E9BE5B /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEEA69B24EBFEEF00E9BE5B /* ChannelViewController.swift */; };
 		9CEEA69F24EBFEEF00E9BE5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CEEA69D24EBFEEF00E9BE5B /* Main.storyboard */; };
 		9CEEA6A124EBFEF400E9BE5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CEEA6A024EBFEF400E9BE5B /* Assets.xcassets */; };
-		9CEEA6A424EBFEF500E9BE5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CEEA6A224EBFEF400E9BE5B /* LaunchScreen.storyboard */; };
+		9CEEA6AC24EC017400E9BE5B /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEEA6AB24EC017400E9BE5B /* Network.swift */; };
+		9CEEA6AE24EC02A300E9BE5B /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEEA6AD24EC02A300E9BE5B /* Articles.swift */; };
+		9CEEA6B024ECF22900E9BE5B /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEEA6AF24ECF22900E9BE5B /* Source.swift */; };
+		9CEEA6B424ED986600E9BE5B /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEEA6B324ED986600E9BE5B /* FavoriteViewController.swift */; };
+		9CEEA6B624ED9BBA00E9BE5B /* SeachViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEEA6B524ED9BBA00E9BE5B /* SeachViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		9C7793F824F4D175009D9EB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CEEA68C24EBFEEF00E9BE5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CEEA69324EBFEEF00E9BE5B;
+			remoteInfo = NewsApiTest;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		9C7793E124F3C3A8009D9EB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9C7793E324F3C423009D9EB9 /* CacheNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheNews.swift; sourceTree = "<group>"; };
+		9C7793E524F3DF7A009D9EB9 /* FavoriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewCell.swift; sourceTree = "<group>"; };
+		9C7793EB24F4421E009D9EB9 /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
+		9C7793F324F4D175009D9EB9 /* NewsApiTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsApiTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CEEA69424EBFEEF00E9BE5B /* NewsApiTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApiTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CEEA69724EBFEEF00E9BE5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9CEEA69924EBFEEF00E9BE5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9CEEA69B24EBFEEF00E9BE5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9CEEA69B24EBFEEF00E9BE5B /* ChannelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelViewController.swift; sourceTree = "<group>"; };
 		9CEEA69E24EBFEEF00E9BE5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CEEA6A024EBFEF400E9BE5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9CEEA6A324EBFEF400E9BE5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CEEA6A524EBFEF500E9BE5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CEEA6AB24EC017400E9BE5B /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		9CEEA6AD24EC02A300E9BE5B /* Articles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
+		9CEEA6AF24ECF22900E9BE5B /* Source.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
+		9CEEA6B324ED986600E9BE5B /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		9CEEA6B524ED9BBA00E9BE5B /* SeachViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeachViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9C7793F024F4D175009D9EB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9CEEA69124EBFEEF00E9BE5B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -37,6 +69,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C7793DA24F3C16E009D9EB9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9CEEA6AD24EC02A300E9BE5B /* Articles.swift */,
+				9CEEA6AF24ECF22900E9BE5B /* Source.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9C7793DB24F3C195009D9EB9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9CEEA6AB24EC017400E9BE5B /* Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9C7793DC24F3C1EA009D9EB9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				9C7793E324F3C423009D9EB9 /* CacheNews.swift */,
+				9C7793EB24F4421E009D9EB9 /* Favorite.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		9C7793DD24F3C281009D9EB9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9CEEA69D24EBFEEF00E9BE5B /* Main.storyboard */,
+				9C7793E024F3C2D1009D9EB9 /* Channel */,
+				9C7793DF24F3C2B3009D9EB9 /* Favorite */,
+				9C7793DE24F3C295009D9EB9 /* Seach */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9C7793DE24F3C295009D9EB9 /* Seach */ = {
+			isa = PBXGroup;
+			children = (
+				9CEEA6B524ED9BBA00E9BE5B /* SeachViewController.swift */,
+			);
+			path = Seach;
+			sourceTree = "<group>";
+		};
+		9C7793DF24F3C2B3009D9EB9 /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				9CEEA6B324ED986600E9BE5B /* FavoriteViewController.swift */,
+				9C7793E524F3DF7A009D9EB9 /* FavoriteTableViewCell.swift */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		9C7793E024F3C2D1009D9EB9 /* Channel */ = {
+			isa = PBXGroup;
+			children = (
+				9CEEA69B24EBFEEF00E9BE5B /* ChannelViewController.swift */,
+			);
+			path = Channel;
+			sourceTree = "<group>";
+		};
 		9CEEA68B24EBFEEF00E9BE5B = {
 			isa = PBXGroup;
 			children = (
@@ -49,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				9CEEA69424EBFEEF00E9BE5B /* NewsApiTest.app */,
+				9C7793F324F4D175009D9EB9 /* NewsApiTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,12 +152,13 @@
 			isa = PBXGroup;
 			children = (
 				9CEEA69724EBFEEF00E9BE5B /* AppDelegate.swift */,
-				9CEEA69924EBFEEF00E9BE5B /* SceneDelegate.swift */,
-				9CEEA69B24EBFEEF00E9BE5B /* ViewController.swift */,
-				9CEEA69D24EBFEEF00E9BE5B /* Main.storyboard */,
+				9C7793E124F3C3A8009D9EB9 /* SceneDelegate.swift */,
+				9C7793DD24F3C281009D9EB9 /* ViewControllers */,
 				9CEEA6A024EBFEF400E9BE5B /* Assets.xcassets */,
-				9CEEA6A224EBFEF400E9BE5B /* LaunchScreen.storyboard */,
 				9CEEA6A524EBFEF500E9BE5B /* Info.plist */,
+				9C7793DB24F3C195009D9EB9 /* Network */,
+				9C7793DA24F3C16E009D9EB9 /* Models */,
+				9C7793DC24F3C1EA009D9EB9 /* Service */,
 			);
 			path = NewsApiTest;
 			sourceTree = "<group>";
@@ -70,6 +166,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9C7793F224F4D175009D9EB9 /* NewsApiTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C7793FA24F4D175009D9EB9 /* Build configuration list for PBXNativeTarget "NewsApiTestTests" */;
+			buildPhases = (
+				9C7793EF24F4D175009D9EB9 /* Sources */,
+				9C7793F024F4D175009D9EB9 /* Frameworks */,
+				9C7793F124F4D175009D9EB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C7793F924F4D175009D9EB9 /* PBXTargetDependency */,
+			);
+			name = NewsApiTestTests;
+			productName = NewsApiTestTests;
+			productReference = 9C7793F324F4D175009D9EB9 /* NewsApiTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		9CEEA69324EBFEEF00E9BE5B /* NewsApiTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CEEA6A824EBFEF500E9BE5B /* Build configuration list for PBXNativeTarget "NewsApiTest" */;
@@ -97,6 +211,10 @@
 				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = "Сергей Шестаков";
 				TargetAttributes = {
+					9C7793F224F4D175009D9EB9 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 9CEEA69324EBFEEF00E9BE5B;
+					};
 					9CEEA69324EBFEEF00E9BE5B = {
 						CreatedOnToolsVersion = 11.6;
 					};
@@ -116,16 +234,23 @@
 			projectRoot = "";
 			targets = (
 				9CEEA69324EBFEEF00E9BE5B /* NewsApiTest */,
+				9C7793F224F4D175009D9EB9 /* NewsApiTestTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9C7793F124F4D175009D9EB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9CEEA69224EBFEEF00E9BE5B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CEEA6A424EBFEF500E9BE5B /* LaunchScreen.storyboard in Resources */,
 				9CEEA6A124EBFEF400E9BE5B /* Assets.xcassets in Resources */,
 				9CEEA69F24EBFEEF00E9BE5B /* Main.storyboard in Resources */,
 			);
@@ -134,17 +259,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9C7793EF24F4D175009D9EB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9CEEA69024EBFEEF00E9BE5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CEEA69C24EBFEEF00E9BE5B /* ViewController.swift in Sources */,
+				9CEEA6AE24EC02A300E9BE5B /* Articles.swift in Sources */,
+				9C7793E224F3C3A8009D9EB9 /* SceneDelegate.swift in Sources */,
+				9CEEA69C24EBFEEF00E9BE5B /* ChannelViewController.swift in Sources */,
+				9CEEA6B024ECF22900E9BE5B /* Source.swift in Sources */,
+				9C7793E424F3C423009D9EB9 /* CacheNews.swift in Sources */,
 				9CEEA69824EBFEEF00E9BE5B /* AppDelegate.swift in Sources */,
-				9CEEA69A24EBFEEF00E9BE5B /* SceneDelegate.swift in Sources */,
+				9C7793EC24F4421E009D9EB9 /* Favorite.swift in Sources */,
+				9CEEA6AC24EC017400E9BE5B /* Network.swift in Sources */,
+				9CEEA6B424ED986600E9BE5B /* FavoriteViewController.swift in Sources */,
+				9CEEA6B624ED9BBA00E9BE5B /* SeachViewController.swift in Sources */,
+				9C7793E624F3DF7A009D9EB9 /* FavoriteTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C7793F924F4D175009D9EB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CEEA69324EBFEEF00E9BE5B /* NewsApiTest */;
+			targetProxy = 9C7793F824F4D175009D9EB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9CEEA69D24EBFEEF00E9BE5B /* Main.storyboard */ = {
@@ -155,17 +303,51 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9CEEA6A224EBFEF400E9BE5B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9CEEA6A324EBFEF400E9BE5B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		9C7793FB24F4D175009D9EB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 557QBYXBP4;
+				INFOPLIST_FILE = NewsApiTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NewsApiTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewsApiTest.app/NewsApiTest";
+			};
+			name = Debug;
+		};
+		9C7793FC24F4D175009D9EB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 557QBYXBP4;
+				INFOPLIST_FILE = NewsApiTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NewsApiTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewsApiTest.app/NewsApiTest";
+			};
+			name = Release;
+		};
 		9CEEA6A624EBFEF500E9BE5B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -319,6 +501,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9C7793FA24F4D175009D9EB9 /* Build configuration list for PBXNativeTarget "NewsApiTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C7793FB24F4D175009D9EB9 /* Debug */,
+				9C7793FC24F4D175009D9EB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9CEEA68F24EBFEEF00E9BE5B /* Build configuration list for PBXProject "NewsApiTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
